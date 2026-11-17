@@ -2,170 +2,96 @@
     "resumes" : [
         {
             "title" : "Matthew's Resume", 
-            "file"  : "resumes/Resume.pdf"
+            "file"  : "src/assets/resumes/Resume.pdf"
         }
     ],
-    "letters" : [ ],
-    "transcripts" : [ ],
+    "letters" : [
+        {
+            "title"    : "Andrew Ma's letter of Recommendation", 
+            "file"     : "src/assets/letters-of-reccomendations/A4_letterhead_Matthew Reference Letter.pdf",
+            "linkedin" : "https://www.linkedin.com/in/andrew-ma-63203656"
+        },
+        {
+            "title"    : "Wing Wong's letter of Recommendation", 
+            "file"     : "src/assets/letters-of-reccomendations/Wing Wong's Letter.pdf",
+            "linkedin" : "https://www.linkedin.com/in/wing-wong-b99939188/"
+        }
+    ],
+    "transcripts" : [
+        {
+            "title" : "Tufts 2021-2025 (Double Major in Computer Science and Mathematics)", 
+            "file"  : "./src/assets/transcripts/offficial-transcript(6-2-2025).pdf"
+        }
+    ],
     "about" : {
-        "photo" : "images/headshot.jpg", 
+        "photo" : "src/assets/images/headshot.jpg", 
         "description" : [
-            "I graduated Summa Cum Laude as a Computer Science major from Tufts University and actively seeking a full-time opportunity as a software developer or solutions architect.",
+            "I am currently a graduating Computer Science major at Tufts University and actively seeking a full-time opportunity as a software developer or solutions architect.",
             "I like to solve puzzles and play board games. I bring that creative problem solving energy to everything that I do. I have experience across the full breadth of software development, working to both integrate the different facets of AI technologies to meet customer needs. During my time at AS Watsons, I especially enjoyed developing the plan to put the pieces together in a modular and extensible way, and found it gratifying to find my design flexibly adapt to changes in requirements.",
             "I have been coding since I was 12 years old, and am always looking to learn more about programming, AI, cybersecurity, and Agile development.",
             "You can reach me at my email: matthewkw123@gmail.com"
         ]
     },
-    "skillCategory" : {
-        "typescript"                  : "programming-language-skill", 
-        "express.js"                  : "technology-skill", 
-        "node.js"                     : "technology-skill", 
-        "mongodb"                     : "technology-skill", 
-        "mern"                        : "design-skill", 
-        "react"                       : "technology-skill", 
-        "css"                         : "programming-language-skill",
-        "python"                      : "programming-language-skill", 
-        "fastapi"                     : "technology-skill", 
-        "azure functions"             : "technology-skill",
-        "docker"                      : "technology-skill", 
-        "chatgpt api"                 : "technology-skill", 
-        "ollama"                      : "technology-skill", 
-        "meta segment anything model" : "technology-skill", 
-        "langchain"                   : "technology-skill", 
-        "huggingface"                 : "technology-skill", 
-        "oop"                         : "design-skill", 
-        "agile"                       : "soft-skill", 
-        "api documentation"           : "soft-skill", 
-        "leadership"                  : "soft-skill", 
-        "debugging"                   : "soft-skill", 
-        "teaching"                    : "soft-skill", 
-        "organization"                : "soft-skill",
-        "html"                        : "programming-language-skill",
-        "c#"                          : "programming-language-skill",
-        "godot"                       : "technology-skill", 
-        "system architecture"         : "design-skill", 
-        "distributed systems"         : "design-skill",
-        "unity"                       : "technology-skill",
-        "c"                           : "programming-language-skill", 
-        "erlang"                      : "programming-language-skill", 
-        "matlab"                      : "programming-language-skill", 
-        "vhdl"                        : "programming-language-skill", 
-        "integrated systems"          : "design-skill", 
-        "fpga"                        : "technology-skill",
-        "glsl"                        : "programming-language-skill", 
-        "modeling"                    : "soft-skill",
-        "computer graphics"           : "design-skill",
-        "game design"                 : "design-skill", 
-        "pillow"                      : "technology-skill", 
-        "pygame"                      : "technology-skill"
-    },
-    "experiences" : [
-        {
-            "title"   : "Founding Software Engineer",
-            "company" : "Rodium", 
-            "summary" : [
-                "Worked with industry experts to develop a streamlined management product which integrated 4+ companies under the same management into one location for easier overview of assets",
-                "Developed an interface for a legal document signing application using React for negotiating parties to reduce time wasted scheduling meetings",
-                "Organized the MongoDB database schema to scale for users to edit and negotiate on asssets in parallel, improving speed and functionality",
-                "Built an API to connect the user front-end to the servers, creating a more secure connection to the database using Express.js and Node.js"
-            ],
-            "skills" : ["TypeScript",  "CSS", "HTML", "Express.js", "Node.js", "MongoDB", "React", "MERN"]
-        }, 
-        {
-            "title"   : "AS Watsons AI Intern",
-            "company" : "CK Hutchison", 
-            "summary" : [
-                "Created a chatbot using LangChain and the ChatGPT API, deployed using FastAPI and Azure Functions, automating content generation for the marketing team reducing campaign generation from ~960 to ~5 mins, streamlining marketing operations and boosting productivity",
-                "Automated data extraction from XML files using Python, transferring the data to a MongoDB database, saving 100+ hours of work, improving cost efficiency and enhancing data integrations across marketing team's platforms",
-                "Used NLP to vector index 1000+ entries of data to improve the accuracy of the SQL instructions for the chatbot generation",
-                "Built an AGILE-focused object oriented program in Python to adapt to changing requirements within 12 hours",
-                "Designed and documented an intuitive API interface to develop faster in parallel with the front-end team", 
-                "Investigated and compared open-source LLMs such as Meta's Llama model to maintain functionality while reducing costs", 
-                "Constructed an automatic advertisement builder using Meta's SAM model to generate 100+ custom ads in under 1 second to target sales to users more efficiently"
-            ],
-            "skills" : ["Python", "FastAPI", "Azure Functions", "Docker", "ChatGPT API", "Ollama", "Meta Segment Anything Model", "MongoDB", "LangChain", "HuggingFace", "OOP", "AGILE", "API Documentation"]
-        },
-        {
-            "title"   : "Computation Theory Teaching Assistant",
-            "company" : "Tufts University", 
-            "summary" : [
-                "Lead recitations of 30+ students and study sessions of 100+ students to develop critical thinking and deeper understanding of course topics by exploring alternate solutions, so that they could adapt and apply knowledge rather than shallowly remember", 
-                "Built up and taught lessons from scratch to students to lead them to their own understanding, resulting in an average of 10 points higher on exams compared to the class average",
-                "Tailored explanations to each student by leading them with questions and asking to voice their thoughts, making out-of-the box concepts to become intuitive and easier to understand for each student as I worked with them more"
-            ],
-            "skills" : ["Leadership", "Debugging", "Teaching", "Organization"]
-        }
-    ],
     "projects" : [
         {
             "title"       : "Stepping Stones", 
             "link"        : "https://github.com/JamesEye/MangoTangoBoardGame", 
             "description" : "An online version of a physical board game by James Intrilligator and Patrick Williams. The game consisted of tiles that you could place and move, and a scout which could move on top of the same colored tiles. The goal of the game was to either reach the other end of the board or to push the opponents scout off. The game also had a special mechanic where the players could 'push' rows or columns of tiles, adding to the strategic depth of the game. Built in a team of 4 in Godot with C#.", 
-            "image"       : "images/projects/stepping-stones.png",
-            "skills"      : ["C#", "Godot", "OOP", "Leadership", "Game Design", "System Architecture", "Distributed Systems"]
+            "image"       : ""
         }, 
         {
             "title"       : "Spellweaver", 
-            "link"        : "https://richmanpoorman.itch.io/spell-weaver-demo", 
+            "link"        : "https://github.com/Noah-Terve/Spell-Weaver", 
             "description" : "A videogame built on the premise of creating new 'spells' by combining different traits to create new spells by the player's design. With over 1000 options for the player, the game emphasizes player creativity. Built in a team of 4 in Unity with C#.", 
-            "image"       : "images/projects/spell-weaver.png", 
-            "skills"      : ["C#", "Unity", "Game Design", "System Architecture"]
+            "image"       : ""
         }, 
         {
             "title"       : "Dungeon Restocker", 
-            "link"        : "https://snowhkay.itch.io/dungeon-restocker", 
+            "link"        : "https://github.com/JiuyaLin/GMTKGameJam2023", 
             "description" : "A videogame where instead of gaining items to get more power, you drop cursed items to get rid of curses. This focuses on adaptation of the player and the ability to create builds by only keeping items that synergize. Built in a team of 5 in Unity with C#.", 
-            "image"       : "images/projects/dungeon-restocker.png", 
-            "skills"      : ["C#", "Unity", "Game Design", "System Architecture", "Organization"]
+            "image"       : ""
         },
         {
             "title"       : "Multiplayer Pacman", 
             "link"        : "https://github.com/richmanpoorman/CS21_FinalProject", 
             "description" : "A twist on the classic game of Pacman, where multiple people can join and play at the same time. The goal is to out-survive all of the other players, with threats from ghosts chasing players around the map. Made with Python and Erlang.", 
-            "image"       : "", 
-            "skills"      : ["Python", "Erlang", "Distributed Systems", "System Architecture", "OOP"]
+            "image"       : ""
         },
         {
             "title"       : "Wave Function Collapse Terrain Generation", 
             "link"        : "https://github.com/richmanpoorman/WaveFunctionCollapse", 
             "description" : "An generalized implementation of Wave Function Collapse for terrain generation, with adjustable weightings and tiling. Built as a way of generating more natural terrain from scratch. Coded in Python.", 
-            "image"       : "images/projects/wave-function-collapse.png",
-            "skills"      : ["Python", "Pillow", "Pygame", "OOP"]
+            "image"       : ""
         },
         {
             "title"       : "Lossy Photo Compression", 
             "link"        : "https://github.com/richmanpoorman/CS40_HW_4", 
             "description" : "A lossy compression algorithm for photos which reduced file size by 75% while maintaing above 90% accuracy. Used color theory and bitpacking to reduce the file size while minimizing lost. Built in a team of 2 in C.", 
-            "image"       : "",
-            "skills"      : ["C", "System Architecture"]
+            "image"       : ""
         },
         {
             "title"       : "Night Club Flow Modeling", 
             "link"        : "https://github.com/richmanpoorman/MATH87-Final-Project", 
             "description" : "Modeled a night club with a bar for drinks, a food area, and a dance floor. Optimized for the bar to make as much money as possible, while maintaining enjoyment by keeping people on the dance floor. Also accounted for different drinks with different pricing throughout the night, and different entrance tickets of varying prices and times. Built in a team of 3 using MATLAB.", 
-            "image"       : "", 
-            "skills"      : ["MATLAB", "Modeling"]
+            "image"       : ""
         },
         {
             "title"       : "Pong on the FPGA", 
             "link"        : "https://github.com/Eddyzzzzz/Pong", 
             "description" : "A lower-level implementation of the classic game of Pong, built to run on an FPGA. Developed in a team of 4 using VHDL.", 
-            "image"       : "images/projects/pong.png", 
-            "skills"      : ["VHDL", "Integrated Systems", "FPGA"]
+            "image"       : ""
         },
         {
             "title"       : "Ocean Simulation", 
             "link"        : "https://github.com/Snw125/Computer-Graphics-Final", 
             "description" : "A simulation of ocean water using the sin of sins technique, a technique common in the gaming industry for water. The water was rendered using the GPU allowing for fast and large computations. Built in a team of 3 using Unity using GLSL.", 
-            "image"       : "images/projects/ocean-sim.png",
-            "skills"      : ["Unity", "GLSL", "Computer Graphics"]
+            "image"       : ""
         },
         {
             "title"       : "Taxi Rush", 
-            "link"        : "https://richmanpoorman.itch.io/taxi-rush", 
+            "link"        : "https://github.com/abarg12/Tufts22Team1", 
             "description" : "A puzzle game where you direct taxi cars to their destination by placing blockades in their way. Built in a team of 4 in Unity using C#. ", 
-            "image"       : "images/projects/taxi-rush.png",
-            "skills"      : ["C#", "Unity", "Game Design", "System Architecture"]
+            "image"       : ""
         }
         
     ],
@@ -253,7 +179,7 @@
                             "grade"       : "A"
                         },
                         {
-                            "name"        : "Intro to Digital Logic Circuits", 
+                            "name"        : "Intro to Digital Loic Circuits", 
                             "description" : "An exploration of how microprocessors work. Topics include: Boolean algebra and logic gates; combinational logic; representing numbers and performing arithmetic with circuits; behavior and use of flip-flops; sequential circuits and state machines; instruction sets; and building blocks for constructing microprocessors. Associated lab exercises with FPGAs and modern design tools. Culminating design of a substantial digital system.",
                             "code"        : "ES 4",
                             "grade"       : "A"

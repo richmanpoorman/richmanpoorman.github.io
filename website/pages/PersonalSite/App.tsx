@@ -4,7 +4,7 @@ import SiteGrid from './components/SiteGrid/SiteGrid';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-
+import "./App.css";
 const title : string = "Matthew Wong"
 
 function App() : ReactElement {
@@ -17,4 +17,4 @@ function App() : ReactElement {
     );
 }
 
-export default App
+export { App as Homepage }; 
